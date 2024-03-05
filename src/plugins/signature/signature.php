@@ -14,13 +14,9 @@ function follow_us($content) {
     // Only do this when a single post is displayed
     if ( is_single() ) { 
     
-    // Message you want to display after the post
-    // Add URLs to your own Twitter and Facebook profiles
-    
     $content .= '<p class="follow-us">please follow me on <a href="https://twitter.com/nishadal/" title="Srijit on Twitter" target="_blank" rel="nofollow">Twitter</a> and <a href="https://www.instagram.com/shri_nityananda/" title="Srijit on Insta" target="_blank" rel="nofollow">Instagram</a>.</p>';
     
     }
-    // Return the content
     return $content; 
     
     }
